@@ -1,0 +1,38 @@
+
+* {
+	box-sizing: border-box;
+}
+
+.main-header{
+	text-align: center;
+	background-image: url(http://placeimg.com/510/510/nature);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	
+}
+
+.profile-img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+
+
+/* Floated Styles*/
+
+.background,
+.goals {
+	width: 46%;
+}
+
+.background{
+	float: left;
+}
+
+.goals{
+	float: right;
+}
+
